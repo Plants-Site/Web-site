@@ -84,3 +84,57 @@ width: fit-content;
     width: 500px;
     color:#3c6e39;
 }
+.decor{
+    background-color: rgb(96, 168, 96);
+    padding: 40px;
+}
+.decor p{
+   
+    padding: 40px;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.616);
+}
+.decor img{
+    background-color:rgb(96, 168, 96) ;
+    float: right;
+    margin-top: -69px ;
+    margin-left: -40px;
+}
+.veg{
+    padding: 5rem;
+    font-size: 2.2rem;   
+     color: indianred;
+     background-color: rgb(238, 230, 158);
+
+}
+.veg p,.fruit p{
+    color: #000;
+}
+.flower{
+    background-color: rgb(247, 167, 167);
+    padding: 40px;
+}
+.flower p{
+    font-size: 2.5rem;
+    /* color: rgb(229, 240, 240); */
+
+}
+.fruit{
+    padding: 5rem;
+    font-size: 2.2rem;   
+    background-color: rgb(144, 236, 205);
+    color: maroon;
+}
+.icon{
+    font-size: 4rem;
+    text-decoration: none;
+    color: black;
+    padding-left: 60px;
+}
+.icon:hover{
+    background-color:rgb(96, 168, 96) ;
+}
+.icons{
+    color: black;
+    font-size: 2.5rem;
+}
