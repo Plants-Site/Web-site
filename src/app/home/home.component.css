@@ -9,7 +9,7 @@ body{
 a.focus,a:hover{
     text-decoration: none;
 }
-a:hover{
+nav a:hover{
     color: rgb(232, 248, 232);
     background-color: #006A71;
 }
@@ -17,8 +17,6 @@ nav{
     margin: none;padding: 0px;
     overflow: hidden;   
     background-color: #006A71;
-
-
 }
 .lists{
     float: right; 
@@ -102,13 +100,14 @@ width: fit-content;
 }
 .veg{
     padding: 5rem;
-    font-size: 2.2rem;   
+    font-size: 2.5rem;   
      color: indianred;
      background-color: rgb(238, 230, 158);
 
 }
 .veg p,.fruit p{
-    color: #000;
+    color: rgb(49, 48, 48);
+    padding: 40px;
 }
 .flower{
     background-color: rgb(247, 167, 167);
@@ -116,12 +115,13 @@ width: fit-content;
 }
 .flower p{
     font-size: 2.5rem;
-    /* color: rgb(229, 240, 240); */
+    padding: 40px;
+    color: rgb(229, 240, 240);
 
 }
 .fruit{
     padding: 5rem;
-    font-size: 2.2rem;   
+    font-size: 2.5rem;   
     background-color: rgb(144, 236, 205);
     color: maroon;
 }
@@ -131,10 +131,13 @@ width: fit-content;
     color: black;
     padding-left: 60px;
 }
-.icon:hover{
-    background-color:rgb(96, 168, 96) ;
-}
+
 .icons{
     color: black;
     font-size: 2.5rem;
+}
+.decor a:hover{  
+    color: #e1e1df;
+    background-color:none ;
+  
 }
