@@ -1,0 +1,125 @@
+.row-1{
+    margin-top: 30px;
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+.row-2{
+    height: 450px;
+    width: 400px;
+    border-radius: 30px 0px 0px 30px;
+}
+#img-1{
+    height: 450px;
+    width: 400px;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+#row-2{
+    height: 450px;
+    width: 1200px;
+    background-color: rgb(96, 168, 96);
+    border-radius: 0px 30px 30px 0px;
+}
+.row-2-1{
+    margin: 30px;
+    font-size: 4rem;
+    height: 60px;
+    width: 450px;
+  
+}
+.row-2-2{
+    margin: 30px;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.616);
+    height: 160px;
+    width: 950px;
+}
+#row-3{
+    height: 450px;
+    width: 1200px;
+    background-color: orange;
+    border-radius: 0px 30px 30px 0px;
+}
+#img-3{
+    height: 450px;
+    width: 400px;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+.explore{
+    color: black;
+    font-size: 2.5rem;
+}
+#explore{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+#row-6{
+    margin-top: 30px;   
+}
+#row-7{
+    height: 450px;
+    width: 1200px;
+    background-color: rgb(134, 187, 55);
+    border-radius: 0px 30px 30px 0px;
+}
+#row-6-2{
+    height: 450px;
+    width: 1200px;
+    background-color: rgb(247, 167, 167);
+    border-radius: 0px 30px 30px 0px;
+}
+
+@media(max-width:600px)
+{
+    #img-1{
+        width: 350px;
+        border-radius: 15px;
+    }
+    .row-1{
+        flex: 100%;
+    }
+    .row-2{
+        width: 300px;
+        border-radius: 15px;
+    }
+    #row-2{
+        border-radius: 30px;
+        width: 350px;
+        height: 625px;
+    }
+    #row-6{
+        border-radius: 30px;
+        width: 350px;
+        height: 625px;
+    }
+    #row-6-2{
+        border-radius: 30px;
+        height: 575px;
+        width: 350px;
+    }
+    .row-2-1{
+        font-size: 2.5rem;
+    }
+    .row-2-2{
+        width: 300px;
+        height: 400px;
+        font-size: 2rem;
+    }
+    #row-3{
+        border-radius: 15px;
+        width: 350px;
+        height: 500px;
+    }
+    #row-7{
+        border-radius: 15px;
+        width: 350px;
+        height: 500px;
+    }
+    #row-5{
+        margin-top: 500px;
+    }
+}

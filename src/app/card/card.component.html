@@ -1,0 +1,279 @@
+                 <!--Input Box-->
+
+
+
+                      <!--Card Section--> 
+
+<div class="row  mt-5" >
+<!--       <div class="row" *ngIf="(items | filter: filteredString).length > 0; else noResults">
+
+     <div class="card" id="card1" *ngFor="let user of items | filter:filteredString">
+
+             <div class="center-img">
+                <div class="image">
+
+                    <img id="mini-img" [src]="user.url"> <br>
+                      
+               </div>
+             </div>
+                <div class="position">  
+                    <div class="title-head">
+                        {{user.title | uppercase }}
+                    </div>
+                     <div>
+                        <p class="font"> {{user.price}}  </p>
+                    </div>
+                </div>
+
+                <div class="button">
+                    
+                    <button id="but-1"> Details </button>
+                    
+                </div>
+       </div>  
+
+       <div class="col-3 mt-5 "  id="card1" *ngFor="let user of items | filter:filteredString">
+               
+        <img class="card-img-top" id="mini-img" [src]="user.url" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> {{user.title}} </h5>
+          <p class="card-text"> {{user.price}} </p>
+
+          <button (click)="showDialog = !showDialog" class="btn btn-primary">Details</button>
+        </div>
+
+      </div>
+      <app-dialog [(visible)]="showDialog" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Title </div>
+        <p class="card-text"> sfs </p>
+        <button (click)="showDialog = !showDialog" class="btn btn-primary">Close</button>
+    </app-dialog> -->
+    
+
+    <div class="col-3 mt-5 "  id="card1" > 
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Jade.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Jade Terrarium </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog = !showDialog" class="btn btn-primary">Details</button>
+        </div>
+
+
+      <app-dialog [(visible)]="showDialog" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Jade Terrarium </div>
+        <p class="card-text"> sdasda </p>
+        <button (click)="showDialog = !showDialog" class="btn btn-primary">Close</button>
+    </app-dialog>
+  </div> 
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Air Purifying Syngonium.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;">Purifying Syngonium </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog1 = !showDialog1" class="btn btn-primary">Details</button>
+        </div>
+
+      
+      <app-dialog [(visible)]="showDialog1" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" >Purifying Syngonium </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog1 = !showDialog1" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div>   
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Syngonium.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Syngonium </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog2 = !showDialog2" class="btn btn-primary">Details</button>
+        </div>
+
+      <app-dialog [(visible)]="showDialog2" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Syngonium </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog2 = !showDialog2" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div>   
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Oxycardium.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Oxycardium </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog12 = !showDialog12" class="btn btn-primary">Details</button>
+        </div>
+
+        
+
+      <app-dialog [(visible)]="showDialog12" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Oxycardium </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog12 = !showDialog12" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div>  
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Chamaedorea.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Chamaedorea </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog4 = !showDialog4" class="btn btn-primary">Details</button>
+        </div>
+
+        
+
+      <app-dialog [(visible)]="showDialog4" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Chamaedorea </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog4 = !showDialog4" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div> 
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Bonsai.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Ficus Bonsai </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog5 = !showDialog5" class="btn btn-primary">Details</button>
+        </div>
+
+      <app-dialog [(visible)]="showDialog5" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Ficus Bonsai </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog5 = !showDialog5" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div> 
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Compacta.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Ficus Compacta </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog6 = !showDialog6" class="btn btn-primary">Details</button>
+        </div>
+
+      <app-dialog [(visible)]="showDialog6" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Ficus Compacta </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog6 = !showDialog6" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div> 
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Kamini.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Kamini </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog7 = !showDialog7" class="btn btn-primary">Details</button>
+        </div>
+
+      <app-dialog [(visible)]="showDialog7" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Kamini </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog7 = !showDialog7" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div> 
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Sansvieria.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Sansvieria Green </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog8 = !showDialog8" class="btn btn-primary">Details</button>
+        </div>
+
+      <app-dialog [(visible)]="showDialog8" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Sansvieria Green </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog8 = !showDialog8" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div> 
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Red philondendron.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Red Philondendron </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog9 = !showDialog9" class="btn btn-primary">Details</button>
+        </div>
+
+      <app-dialog [(visible)]="showDialog9" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Red Philondendron </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog9 = !showDialog9" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div> 
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+        <img class="card-img-top" id="mini-img" src="assets/plant/Lucky bamboo.png" >
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 25px;"> Lucky Bamboo </h5>
+          <p class="card-text"> sdasda </p>
+
+          <button (click)="showDialog10 = !showDialog10" class="btn btn-primary">Details</button>
+        </div>
+
+      <app-dialog [(visible)]="showDialog10" title="Details Card" data-popup="width:300;height:250">
+        <div class="card-title" style="font-size: 25px;" > Lucky Bamboo </div>
+        <p class="card-text"> Terrarium </p>
+        <button (click)="showDialog10 = !showDialog10" class="btn btn-primary">Close</button>
+    </app-dialog>
+
+    </div> 
+
+    <div class="col-3 mt-5 "  id="card1">
+               
+      <img class="card-img-top" id="mini-img" src="assets/plant/Tropical Hibiscus.png" >
+      <div class="card-body">
+        <h5 class="card-title" style="font-size: 25px;"> Tropical Hibiscus </h5>
+        <p class="card-text"> sdasda </p>
+
+        <button (click)="showDialog11 = !showDialog11" class="btn btn-primary">Details</button>
+      </div>
+
+    <app-dialog [(visible)]="showDialog11" title="Details Card" data-popup="width:300;height:250">
+      <div class="card-title" style="font-size: 25px;" > Tropical Hibiscus </div>
+      <p class="card-text"> Terrarium </p>
+      <button (click)="showDialog11 = !showDialog11" class="btn btn-primary">Close</button>
+  </app-dialog>
+
+  </div> 
+
+    
+
+    <ng-template #noResults >
+        <p class="no-result">No results found for "{{filteredString}}".</p>
+      </ng-template>
+
+</div>
