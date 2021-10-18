@@ -4,7 +4,7 @@ body{
     font-family: 'Birthstone Bounce', cursive;
     font-family: 'Lobster', cursive;
     width: 100%;
-    overflow-x: hidden;
+    
     background-color: #e1e1df ;
 }
 a.focus,a:hover{
@@ -43,46 +43,48 @@ width: fit-content;
     font-size: 3rem;
 }
 .navbar-light .navbar-nav{
-
     /* color: rgb(19, 61, 19); */
     color: #fff;
     
 }
+
+/* home page style */
 .pic img{
     margin: -10px;
-    height: 690px;
-    overflow: hidden;
+    height: 700px;
+   
 }
-.pic{
-    
-}
+
 .word img{
     margin: -10px;
     float: right;
-    height: 680px;
-    overflow: hidden;
+    height: 700px;
+    width: fit-content;
+   
 
 }
+.confused{
+    position: relative;
+    margin-top:-60rem;
+    margin-left: 16rem;
+    
+}
 .cent1{
-    margin: 29rem;
-    margin-left: 40rem;
     position: absolute;
-    padding: 5rem;
+   
 }
 .cent2{
     font-size: 2rem;
-    margin: 43rem;
-    margin-left: 53rem;
     position: absolute;
-    padding: 10px;
     border-color:#006A71 ;
     background-color: #006A71;
+    margin-top: 80px;
     
 }
 .cent{
     height: fit-content;
     position: relative;
-    padding-top: 5em ;
+    padding-top: 5rem ;
     width: 500px;
     color:#3c6e39;
 }
@@ -160,31 +162,51 @@ width: fit-content;
     background-color:none ;
   
 }
-@media screen and (max-width: 800px){
-    body{
-        display: none;
+@media only screen and (max-width: 600px) {
+    .confused{
+       
+        margin-top:-80rem;
+        margin-left: 10rem;
+        
+    }
+    .pic img{
+        
+        height: 200px;
+        width: 100px;
+       
     }
     
-
-/* .cent1{
-   
-   position: absolute;
-    padding: 5rem;
-}
-.cent2 {
-    font-size: 1.5rem;
-    margin: 10rem;
-    padding: 10px;
-    border-color:#006A71 ;
-    background-color: #006A71;
+    .word img{
+        
+       display: none;
+        height: 700px;
+        width: fit-content;
+       
     
-}
-.cent{
-    height: fit-content;
-    position: relative;
-    padding-top: 5em ;
-    width: 500px;
-    color:#3c6e39;
-} */
-}
+    }
+    
+    .cent1{
+        position: absolute;
+       
+    }
+    .cent2{
+        font-size: 2rem;
+        position: absolute;
+        border-color:#006A71 ;
+        background-color: #006A71;
+        margin-top: 80px;
+        
+    }
+    .cent{
+        height: fit-content;
+        position: relative;
+        padding-top: 5rem ;
+        width: 500px;
+        color:#3c6e39;
+    }
+
+  }
+    
+
+
 
