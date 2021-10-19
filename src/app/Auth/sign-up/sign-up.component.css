@@ -187,3 +187,48 @@
 .error{
     color: red;
 }
+
+@media(max-width:600px)
+{
+    #row-1{
+        display: none;
+    }
+    .container{
+        background: none;
+    }
+    #row-2{
+        width: 375px;
+    }
+    .title{
+        margin-left: 120px;
+    }
+    .details{
+        margin-left: -70px;
+    }
+    #mail{
+        width: 320px;
+    }
+    #forgot{
+    
+        margin-left: 80px;
+    }
+    #button{
+        margin-left: 50px;
+    }
+    .line{
+        display: none;
+    }
+    .buttons{
+        margin-top: -90px;
+    }
+    .button-1{
+        margin: 30px;
+        margin-left: 80px;
+    }
+    .button-2{
+        margin-left: 80px;
+    }
+    .container-3{
+        margin-left: 50px;
+    }
+}
